@@ -1,0 +1,561 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;">
+<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+<title>Simple HTMl</title>
+
+</head>
+
+<body style="margin:0; padding:0;" bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<style type="text/css">
+body {
+	margin: 0;
+	padding: 0;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+table {
+	border-spacing: 0;
+}
+table td {
+	border-collapse: collapse;
+}
+.imgcomun {
+	border: 0;
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+.ExternalClass {
+	width: 100%;
+}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {
+	line-height: 100%;
+}
+.ReadMsgBody {
+	width: 100%;
+	background-color: #66aee9;
+}
+table {
+	mso-table-lspace: 0pt;
+	mso-table-rspace: 0pt;
+}
+img {
+	-ms-interpolation-mode: bicubic;
+	border: none;
+}
+.yshortcuts a {
+	border-bottom: none !important;
+}
+.imgresponsive {
+	width: 100% !important;
+	height: auto !important;
+	display: block !important;
+}
+.vxs {
+	display: none !important;
+}
+
+@media screen and (max-width: 480px) {
+.force-row, .container {
+	width: 100% !important;
+	max-width: 100% !important;
+}
+.text-mobile {
+	font-size: 10px !important;
+}
+.text-mobile3 {
+	font-size: 10px !important;
+}
+.text-mobile8 {
+	font-size: 15px !important;
+}
+.text-mobile4 {
+	font-size: 12px !important;
+	line-height: normal !important;
+}
+.text-mobiletit {
+	font-size: 6px !important;
+}
+.imgcomun {
+	max-width: 100% !important;
+	height: auto !important;
+	display: block !important;
+}
+.imgresponsive {
+	width: 100% !important;
+	height: auto !important;
+	display: block !important;
+}
+.vxs {
+	display: table !important;
+}
+.none {
+	display: none !important;
+}
+}
+.ios-footer a {
+	color: #aaaaaa !important;
+	text-decoration: underline;
+}
+</style>
+<!-- 100% background wrapper (grey background) -->
+<table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF"  style="text-decoration:none !important;">
+  <tr>
+    <td height="20" align="center" valign="top" bgcolor="#FFFFFF" style="text-decoration:none !important;"><!--/650px container -->
+      
+      <table border="0" width="650" cellpadding="0" cellspacing="0" class="container" style="width:650px;max-width:650px;text-decoration:none !important;">
+        <tbody>
+          <tr bgcolor="#4171f3">
+            <td width="4%" height="25"></td>
+            <td height="25" align="center">
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="34%" style="color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 11px; text-align: left;">PUBLICIDAD</td>
+                <td width="66%" align="center" style="color: #ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 11px; text-align: right;">¿Tenés problemas para ver este email? Hacé click aquí</td>
+              </tr>
+              </table>
+            </td>
+            <td width="4%" height="25"></td>
+          </tr>
+        
+          <tr>
+            <td width="4%" height="15" bgcolor="#4171f3"></td>
+            <td width="92%" height="15"></td>
+            <td width="4%" height="15" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" bgcolor="#4171f3"></td>
+            <td width="92%">
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <td width="4%"></td>
+                    <td width="92%"><img src="data:image/png;base64,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" style="max-width: 10%; width: auto; height: auto;" class="imgcomun" alt="American Express"/></td>
+                    <td width="4%"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+            <td width="4%" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+            <td width="92%" height="20"></td>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+            <td width="92%">
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="5%"></td>
+                  <td width="90%" align="center" style="color: #00175a; font-family: Verdana, Helvetica, sans-serif; font-size: 14px; text-align:left;">Hola, <'nombre'></td>
+                  <td width="5%"></td>
+                </tr>
+              </table>
+            </td>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+            <td width="92%" height="20"></td>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+          </tr>
+          <tr >
+            <td width="4%" height="25" bgcolor="#4171f3"></td>
+            <td height="25" align="center">
+              <table width="80%" height="35" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="33%" align="left" style="color: #00175a; font-family: Arial, Helvetica, sans-serif; font-size: 12px; text-align: left;">Mis Viajes</td>
+                <td width="33%" align="center" style="color: #00175a; font-family: Arial, Helvetica, sans-serif; font-size: 12px; text-align: center;">Mis bienes</td>
+                <td width="32%" align="right" style="background: #00175a;">
+                  <table>
+                    <tr>
+                      <td width="22%"></td>
+                      <td width="37%" style="color: #ffff; font-family: Arial, Helvetica, sans-serif; font-size: 11px; text-align: center;">MI CUENTA</td>
+                      <td width="21%"></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+              </table>
+            </td>
+            <td width="4%" height="25" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+            <td width="92%" height="20"></td>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" bgcolor="#4171f3"></td>
+            <td width="92%"><img src="https://www.amexcorporate.com.ar/news/html_aa12csi_jul18_af/html_aa12csi_jul18_af_07.jpg" class="imgresponsive" alt="Grandes Decisiones: Pasillo o ventana"/></td>
+            <td width="4%" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" height="10" bgcolor="#4171f3"></td>
+            <td width="92%" height="10" bgcolor="#00175a"></td>
+            <td width="4%" height="10" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" bgcolor="#4171f3"></td>
+            <td width="92%" bgcolor="#00175a">
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="4%"></td>
+                <td width="92%">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="92%" align="left"><h3 style="color: #ffffff; font-family: sans-serif; font-size: 15px; ">Est&eacute;s donde est&eacute;s, hagas lo que hagas,<br>
+                      te respaldamos.</h3></td>
+                    <td width="4%"></td>
+                    <td width="4%"></td>
+                  </tr>
+                </table>
+                </td>
+                <td width="4%"></td>
+              </tr>
+            </table>
+            </td>
+            <td width="4%" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" height="10" bgcolor="#4171f3"></td>
+            <td width="92%" height="10" bgcolor="#00175a"></td>
+            <td width="4%" height="10" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+            <td width="92%" height="20" bgcolor="#e6e6e6"></td>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" bgcolor="#4171f3"></td>
+            <td width="92%" bgcolor="#e6e6e6">
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="4%"></td>
+                <td width="92%">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="60%" align="left"><strong style=" color: #00175a;font-family: sans-serif; font-size: 15px; ">Tu tranquilidad es lo m&aacute;s importante.</strong></td>
+                    <td width="4%"></td>
+                    <td width="36%"></td>
+                  </tr>
+                </table>
+                </td>
+                <td width="4%"></td>
+              </tr>
+            </table>
+            </td>
+            <td width="4%" bgcolor="#4171f3"></td>
+          </tr>
+          
+          
+          <tr>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+            <td width="92%" height="20" bgcolor="#e6e6e6"></td>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" bgcolor="#4171f3"></td>
+            <td width="92%" bgcolor="#e6e6e6">
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="4%"></td>
+                <td width="92%">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="98%" align="left"><h7 style=" color: #00175a;font-family: sans-serif; font-size: 15px; ">Al contratar un seguro o un servicio de asistencia al viajero a trav&eacute;s de American
+                      Express, no s&oacute;lo est&aacute;s eligiendo la protecci&oacute;n de prestigiosas compañ&iacute;as
+                      seleccionadas por nosotros. Tambi&eacute;n cont&aacute;s con la tranquilidad de obtener
+                      atenci&oacute;n personalizada en nuestra unidad de servicio de atenci&oacute;n especializada en
+                      seguros.</h7></td>
+                    <td width="1%"></td>
+                    <td width="1%"></td>
+                  </tr>
+                </table>
+                </td>
+                <td width="4%"></td>
+              </tr>
+            </table>
+            </td>
+            <td width="4%" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+            <td width="92%" height="20" bgcolor="#e6e6e6"></td>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+            <td width="92%" height="20" bgcolor="white"></td>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" bgcolor="#4171f3"></td>
+            <td width="92%" bgcolor="white">
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="4%"></td>
+                <td width="92%">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="98%" align="left"><h7 style=" color: #00175a;font-family: sans-serif; font-size: 15px; ">Estamos a tu disposición para atender de manera exclusiva cualquier consulta o inquietud sobre los seguros y servicios de asistencia en viajes que tengas o desees contratar a trav&eacute;s de American Express.</h7></td>
+                    <td width="1%"></td>
+                    <td width="1%"></td>
+                  </tr>
+                </table>
+                </td>
+                <td width="4%"></td>
+              </tr>
+            </table>
+            </td>
+            <td width="4%" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+            <td width="92%" height="20" bgcolor="white"></td>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" bgcolor="#4171f3"></td>
+            <td width="92%" bgcolor="white">
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="4%"></td>
+                <td width="92%">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="98%" align="left"><h7 style=" color: #00175a;font-family: sans-serif; font-size: 15px; ">Te invitamos a comunicarte al <strong>0810-888-SEGU (7348)</strong>, de lunes a viernes de <strong>9 a 20 horas</strong> para responder tus consultas y para adquirir las siguientes coberturas exclusivas:</h7></td>
+                    <td width="1%"></td>
+                    <td width="1%"></td>
+                  </tr>
+                </table>
+                </td>
+                <td width="4%"></td>
+              </tr>
+            </table>
+            </td>
+            <td width="4%" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+            <td width="92%" height="20"></td>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" bgcolor="#4171f3"></td>
+            <td width="92%" bgcolor="#ffffff">
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="4%"></td>
+                <td width="92%">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="92%" align="center"><img src="http://imgfz.com/i/trmJn8f.png"></td>
+                    <td width="4%"></td>
+                    <td width="4%"></td>
+                  </tr>
+                </table>
+                </td>
+                <td width="4%"></td>
+              </tr>
+            </table>
+            </td>
+            <td width="4%" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+            <td width="92%" height="20"></td>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+            <td width="92%" height="20" bgcolor="#00175a">
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="4%"></td>
+                <td width="92%">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="92%" align="center"><p style="color: #ffffff; font-family: sans-serif; font-size: 15px; ">		
+                      Comunicate al <strong>0810-888-SEGU (7348)</strong><br> de lunes a viernes de <strong>9 a 20 horas</strong></p></td>
+                    <td width="4%"></td>
+                    <td width="4%"></td>
+                  </tr>
+                </table>
+                </td>
+                <td width="4%"></td>
+              </tr>
+            </table>
+            </td>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+            <td width="92%" height="20"></td>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" bgcolor="#4171f3"></td>
+            <td width="92%" bgcolor="#ffffff">
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="4%"></td>
+                <td width="92%">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="92%" align="center"><img src="http://imgfz.com/i/7SWauHU.png"></td>
+                    <td width="4%"></td>
+                    <td width="4%"></td>
+                  </tr>
+                </table>
+                </td>
+                <td width="4%"></td>
+              </tr>
+            </table>
+            </td>
+            <td width="4%" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+            <td width="92%" height="20"></td>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" bgcolor="#4171f3"></td>
+            <td width="92%" bgcolor="#ffffff">
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="4%"></td>
+                <td width="92%">
+                  <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="92%" align="center"><img src="http://imgfz.com/i/cGXoz7M.png"></td>
+                    <td width="4%"></td>
+                    <td width="4%"></td>
+                  </tr>
+                </table>
+                </td>
+                <td width="4%"></td>
+              </tr>
+            </table>
+            </td>
+            <td width="4%" bgcolor="#4171f3"></td>
+          </tr>
+			    <tr>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+            <td width="92%" height="20"></td>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+          </tr>
+          <tr >
+            <td width="4%" height="25" bgcolor="#4171f3"></td>
+            <td height="25" align="center">
+              <table width="80%" height="35" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td width="20%" align="left" style="color: #00175a; font-family: Arial, Helvetica, sans-serif; font-size: 12px; text-align: left;">Privacidad</td>
+                <td width="20%" align="left" style="color: #00175a; font-family: Arial, Helvetica, sans-serif; font-size: 12px; text-align: center;">Contacto</td>
+                <td width="25%" align="center" style="color: #00175a; font-family: Arial, Helvetica, sans-serif; font-size: 11px; text-align: center;">Actualizar contacto</td>
+                <td width="35%" align="right" style="color: #00175a; font-family: Arial, Helvetica, sans-serif; font-size: 11px; text-align: center;">Desuscribirse contacto</td>
+              </tr>
+              </table>
+            </td>
+            <td width="4%" height="25" bgcolor="#4171f3"></td>
+          </tr>
+			    <tr>
+            <td width="4%" height="15" bgcolor="#4171f3"></td>
+            <td width="92%" height="15" bgcolor="white"></td>
+            <td width="4%" height="15" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+            <td width="92%" height="20" bgcolor="white"></td>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" bgcolor="#4171f3"></td>
+            <td width="92%" bgcolor="white">
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <td width="4%"></td>
+                    <td width="92%" style="color: #000000; font-family: Verdana, Helvetica, sans-serif; font-size: 8px; text-align:justify;"><p>AMERICAN EXPRESS OFRECE LOS PRODUCTOS EMITIDOS POR LAS COMPAÑÍAS ASEGURADORAS ALIADAS (DISPONIBLES EN
+                      WWW.AMERICANEXPRESS.COM.AR/SEGUROSYSERVICIOS) EN SU CARÁCTER DE AGENTE INSTITORIO, INSCRIPTO EN LA
+                      SUPERINTENDENCIA DE SEGUROS DE LA NACIÓN (SSN) BAJO N° 92. TELÉFONO SSN 0800-666-8400,
+                      WWW.ARGENTINA.GOB.AR/SSN.</p>
+                        
+             
+                      <p>LOS DATOS PERSONALES SON ALMACENADOS EN UNA BASE DE DATOS, CUYO RESPONSABLE ES AMERICAN EXPRESS
+                        ARGENTINA S.A. CON DOMICILIO LEGAL EN ARENALES 707, ENTREPISO, CP C1061AAA, C.A.B.A. USTED PODRÁ -EN CUALQUIER
+                        MOMENTO- SOLICITAR EL RETIRO O BLOQUEO DE SU NOMBRE, TOTAL O PARCIAL, DE NUESTRA BASE DE DATOS Y PODRÁ
+                        SOLICITAR INFORMACIÓN ACERCA DEL NOMBRE DEL RESPONSABLE O USUARIO DE LA BASE DE DATOS QUE PROVEYÓ SU
+                        INFORMACIÓN. LEY 25.326 ART.27. - INC. 3. “EL TITULAR PODRÁ EN CUALQUIER MOMENTO SOLICITAR EL RETIRO O BLOQUEO DE
+                        SU NOMBRE DE LOS BANCOS DE DATOS A LOS QUE SE REFIERE EL PRESENTE ARTÍCULO”. DECRETO 1558/01 - ART. 27. - 3ER.
+                        PÁRRAFO. “EN TODA COMUNICACIÓN CON FINES DE PUBLICIDAD QUE SE REALICE POR CORREO, TELÉFONO, CORREO
+                        ELECTRÓNICO, INTERNET U OTRO MEDIO A DISTANCIA A CONOCER, SE DEBERÁ INDICAR, EN FORMA EXPRESA Y DESTACADA, LA
+                        POSIBILIDAD DEL TITULAR DEL DATO DE SOLICITAR EL RETIRO O BLOQUEO, TOTAL O PARCIAL, DE SU NOMBRE DE LA BASE DE
+                        DATOS. A PEDIDO DEL INTERESADO, SE DEBERÁ INFORMAR EL NOMBRE DEL RESPONSABLE O USUARIO DEL BANCO DE DATOS
+                        QUE PROVEYÓ LA INFORMACIÓN”.</p>
+                      <p>INSTRUCCIONES PARA CANCELAR LA SUSCRIPCIÓN: ESTE CORREO ELECTRÓNICO PUBLICITARIO ESTÁ DESTINADO A RESIDENTES
+                        DE ARGENTINA Y FUE ENVIADO A <*email*>. SI HA SIDO RECIBIDO EN UNA DIRECCIÓN DIFERENTE, SIGNIFICA QUE FUE REENVIADO.
+                        SI NO DESEA RECIBIR NUEVOS MENSAJES PUBLICITARIOS EN EL FUTURO, POR FAVOR RESPONDA ESTE E-MAIL CON LA PALABRA
+                        “BORRAR” EN EL ASUNTO (SUBJECT), O VISITE LAS PREFERENCIAS DE CORREO ELECTRÓNICO EN EL SITIO WEB DE AMERICAN
+                        EXPRESS. SERVICIO AL CLIENTE: POR FAVOR NO RESPONDA (REPLY) ESTE E-MAIL Y DIRIJA TODAS SUS CONSULTAS A SERVICIO AL
+                        CLIENTE. DECLARACIÓN SOBRE PRIVACIDAD: PARA SABER CÓMO OBTENEMOS, ASEGURAMOS Y UTILIZAMOS SU INFORMACIÓN
+                        PERSONAL CUMPLIENDO CON LA LEY 25.326, VISITE LA DECLARACIÓN SOBRE PRIVACIDAD DE AMERICAN EXPRESS INGRESANDO
+                        EN: WWW.AMERICANEXPRESS.COM.AR/PRIVACIDAD
+                        </p>
+                      <p>© 2019 AMERICAN EXPRESS COMPANY</p>
+                    </td>
+                    <td width="4%"></td>
+                  </tr>
+                </tbody>
+                </table>
+            </td>
+            <td width="4%" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+            <td width="92%" height="20" bgcolor="white"></td>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" bgcolor="#4171f3"></td>
+            <td width="92%">
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tbody>
+                  <tr>
+                    <td width="4%"></td>
+                    <td width="92%"><img src="http://imgfz.com/i/1typZWA.png" style="max-width: 100%; width: auto; height: auto;" class="imgcomun" alt="American Express"/></td>
+                    <td width="4%"></td>
+                  </tr>
+                </tbody>
+              </table>
+            </td>
+            <td width="4%" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+            <td width="92%" height="20" bgcolor="white"></td>
+            <td width="4%" height="20" bgcolor="#4171f3"></td>
+          </tr>
+          <tr>
+            <td width="4%" height="25" bgcolor="#4171f3"></td>
+            <td width="92%" height="25" bgcolor="4171f3"></td>
+            <td width="4%" height="25" bgcolor="#4171f3"></td>
+          </tr>
+        </tbody>
+    </table></td>
+  </tr>
+</table>
+<!--/100% background wrapper-->
+</body>
+
+</html>
